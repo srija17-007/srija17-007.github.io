@@ -10,18 +10,20 @@
             margin: 0;
             padding: 0;
             font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
         }
 
         header {
             background: #333;
             color: #fff;
             text-align: center;
-            padding: 10px;
+            padding: 20px;
         }
 
         nav {
             background: #444;
             padding: 10px;
+            text-align: center;
         }
 
         nav a {
@@ -29,17 +31,31 @@
             text-decoration: none;
             margin: 0 15px;
             font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
         }
 
         section {
-            padding: 20px;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
         }
 
         footer {
             background: #333;
             color: #fff;
             text-align: center;
-            padding: 10px;
+            padding: 20px;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -50,6 +66,7 @@
             width: 100%;
             padding-bottom: 56.25%;
             height: 0;
+            overflow: hidden;
         }
 
         .video-container iframe {
@@ -62,16 +79,29 @@
 
         .button {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 12px 24px;
             background-color: #4285f4;
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #34a853;
         }
 
         .input-field {
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
         }
     </style>
 </head>
